@@ -1,0 +1,11 @@
+{application, serve_here, [
+	{description, "Start a static webserver in the current directory."},
+	{vsn, "1"},
+	{modules, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy
+	]},
+	{env, []}
+]}.
